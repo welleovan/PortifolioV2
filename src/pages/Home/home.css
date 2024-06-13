@@ -1,0 +1,149 @@
+/* src/components/home/Home.css */
+
+body {
+    background-color: #000; /* Define a cor de fundo do corpo para preto */
+    color: #fff; /* Define a cor do texto para branco */
+  }
+  
+  .intro {
+    padding: 20px;
+    background-color: #222; /* Cor de fundo para a seção intro */
+  }
+  
+  .intro__title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro__title--highlight {
+    display: block;
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  .intro__description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro__links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background-color: #333; /* Fundo dos links */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Cantos arredondados */
+  }
+  
+  .intro__links-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .intro__link:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .projects {
+    padding: 20px;
+    background-color: #333; /* Cor de fundo para a seção de projetos */
+    border-radius: 10px; /* Cantos arredondados */
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 50px; /* Adiciona uma margem inferior entre os projetos */
+  }
+  
+  .project h3 {
+    margin: 0;
+  }
+
+  .project p {
+    margin: 0;
+    overflow: auto; /* Adiciona uma barra de rolagem caso a descrição seja muito longa */
+    max-height: 100px; /* Defina uma altura máxima para o contêiner */
+  }
+
+  .curriculum {
+    margin-top: 30px; /* Espaçamento superior */
+    margin-bottom: 100px;
+    border: 1px solid #ccc;
+  }
+  
+  .curriculum h2 {
+    font-size: 24px; /* Tamanho da fonte para os títulos */
+    margin-bottom: 10px; /* Espaçamento inferior */
+  }
+  
+  .curriculum p {
+    font-size: 16px; /* Tamanho da fonte para os parágrafos */
+    margin-bottom: 20px; /* Espaçamento inferior */
+  }
+  .profile-picture {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .profile-picture img {
+    width: 150px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Faça a imagem ser um círculo */
+    transition: transform 0.5s; /* Adicione uma transição suave */
+  }
+  
+  
+
+  .footer {
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .scrollTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.4s;
+  }
+  
+  .scrollTop:hover {
+    background-color: #0056b3;
+  }
+  

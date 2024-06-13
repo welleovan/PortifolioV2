@@ -1,0 +1,22 @@
+/* src/components/pages/About.css */
+.about {
+    padding: 0px;
+  }
+  /* Adicione este CSS para ajustar o estilo do componente About */
+.profile-picture {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    border-radius: 50%;
+    transition: transform 0.5s;
+  }
+  
+  .profile-picture img:hover {
+    transform: rotate(360deg);
+  }
+  
+  
+  
