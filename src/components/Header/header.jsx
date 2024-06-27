@@ -1,16 +1,16 @@
 // src/components/header/Header.jsx
 import React from 'react';
-import './header.css'
+import './header.css';
 
-function Header()  {
+function Header({ showCurriculumLink, centered }) {
   return (
-    <header className="header">
-      <h1>Portfólio- Welleovan </h1>
+    <header className={`header ${centered ? 'header--centered' : ''}`}>
+      <h1 style={{ color: 'white' }}>Portfólio - Welleovan</h1>
       <nav>
         <ul>
+          <li><a href="/">Home</a></li>
           <li><a href="#about">Sobre</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="/Curriculo">Curriculum</a></li>
+          {showCurriculumLink && <li><a href="/Curriculo">Curriculum</a></li>}
         </ul>
       </nav>
     </header>

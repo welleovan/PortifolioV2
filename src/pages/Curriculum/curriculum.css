@@ -1,0 +1,85 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  
+  h2 {
+    color: #ffffff;
+    margin-bottom: 0.5em;
+  }
+  
+  /* Estilos para a seção de currículo */
+  .curriculum {
+    padding: 20px;
+    background-color: #222;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .apresentacao__texto__descricao {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    color: #ffffff;
+  }
+  
+  .apresentacao__texto__subtitulo {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 0.3em;
+  }
+  
+  .apresentacao__texto__lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .apresentacao__texto__lista li {
+    background: #f9f9f9;
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-left: 4px solid #007bff;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .apresentacao__texto__lista li:hover {
+    background: #e9ecef;
+  }
+  .curriculum-page .header--centered ul {
+  /* Propriedades de centralização (como margin: 0 auto ou flexbox) */
+}
+  /* Estilos para a seção About */
+  .about {
+    text-align: center;
+    margin: 2em auto;
+    padding: 2em;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .about__photo {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+  }
+  
+  .about h2 {
+    color: #007bff;
+  }
+  
+  .about p {
+    color: #555;
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  

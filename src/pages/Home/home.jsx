@@ -15,7 +15,8 @@ function Home()  {
 
   return (
     <div>
-    <Header/> 
+      <Header showCurriculumLink={true} /> 
+   
       <About/>    {/* chamando About */}
       <section className="intro">
         <h1 className="intro__title">
@@ -55,24 +56,6 @@ function Home()  {
         </div>
       </section>
 
-      <section id="curriculum"  className="curriculum">
-        <h2>Currículo</h2>
-      
-            <p class="apresentacao__texto__descricao">Apresentação e informações principais</p>
-            
-            <h2 class="apresentacao__texto__subtitulo">Experiências</h2>
-            <ul class="apresentacao__texto__lista">
-                <li>Empresa Microsum (2016 - 2018) - Analista de implantação</li>
-                <li>Empresa Wiki Sistemas (2018 - 2019) - Analista de implantação</li>
-            </ul>
-
-            <h2 class="apresentacao__texto__subtitulo">Estudos</h2>
-            <ul class="apresentacao__texto__lista">
-                <li>Curso Tal - Instituição Tal <a href="linkcertificado">com certificado</a></li>
-                <li>Curso Tal - Instituição Tal <a href="linkcertificado">com certificado</a></li>
-                <li>Curso Tal - Instituição Tal <a href="linkcertificado">com certificado</a></li>
-            </ul>
-      </section>
       <Footer></Footer>
       {/* Fim do conteúdo do currículo */}
     </div>
